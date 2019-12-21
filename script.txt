@@ -1,0 +1,39 @@
+Each task is presented in a single *.ipynb file. A task may include multiple requirements, each of which is stored in a separate cell.
+
+Task 01: Basic data operations on DataFrames and RDDs
+Load the dataset movies.json, which is available in the folder Googgle Drive\DemoNov29
+a. Read the dataset into a DataFrame df and show its schema.
+b. Count the number of records in df
+c. Count the number of movies that were released after 2015
+d. Show the movies whose names contain the word "Soldiers" (case-insensitive)
+e. Show the movies that Amy Adams participated
+f. Check whether Tom Cruise participated in any documentary movies. If no, return false. If yes, return the list of movies (only names enough)
+g. Sort the movies following the descending order of the number of actors/actresses participated and then show the top 5 movies
+h. List all the genres of movies that Emma Roberts participated
+i. Count the number of genres in the dataset
+j. Determine the year with highest number of actors/actresses participated.
+
+Task 02: Frequent pattern mining with FPGrowth
+Load the dataset sample_fpgrowth.txt, which is available in the folder Googgle Drive\DemoNov29
+a. Perform an appropriate SparkML API (DF-based) on the given dataset
+b. Perform an appropriate MLLib API (RDD-based) on the given dataset
+
+Task 03: Clustering with k-means
+Load the dataset kmeans_data.txt, which is available in the folder Googgle Drive\DemoNov29
+a. Perform San appropriate SparkML API (DF-based) on the given dataset
+b. Perform an appropriate MLLib API (RDD-based) on the given dataset
+c. Visualize one of the two above clustering results
+
+Task 04: Classification with decision trees
+Load the dataset weather.txt, which is available in the folder Googgle Drive\DemoNov29
+a. Perform an appropriate SparkML API (DF-based) on the given dataset
+b. Create two arbitrary test samples and use the above decision tree to predict their labels
+
+Task 05: Recommender systems with ALS
+Load the dataset sample_movielens_data.txt, which is available in the folder Googgle Drive\DemoNov29
+Build a recommender systems using ALS with an appropriate SparkML API
+
+Task 06: Social network analysis with GraphFrame
+Load the datasets user.txt and follower.txt, which are available in the folder Googgle Drive\DemoNov29
+a. Build a tiny social network from the given datasets
+b. Try some query to discover interesting things from the constructed network
