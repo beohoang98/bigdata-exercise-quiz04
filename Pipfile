@@ -10,6 +10,7 @@ pyspark = "*"
 findspark = "*"
 pandas = "*"
 jupyter = "*"
+graphframes = "*"
 
 [requires]
 python_version = "3.7"

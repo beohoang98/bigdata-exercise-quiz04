@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "a279375c2a184b8e0adc17c707f665d7652facc92f20b2c525435e7c9d0921a5"
+            "sha256": "d87ab692d2334fffeaee4105135fd152909fd597fdaa04160abc5b4fb3865dfe"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -65,6 +65,14 @@
             ],
             "index": "pypi",
             "version": "==1.3.0"
+        },
+        "graphframes": {
+            "hashes": [
+                "sha256:869aff3f4bf76a609a6bf4399c9c319c9a0280badd676750a49400e940f1adfa",
+                "sha256:dc18f71ee3644550ca1b2d73f017bd380881425f3b8acea58cbff3e8525e518d"
+            ],
+            "index": "pypi",
+            "version": "==0.6"
         },
         "importlib-metadata": {
             "hashes": [
@@ -214,6 +222,14 @@
                 "sha256:f7494ef0df60766b7cabe0a3651556345a963b74dbc16bc7c18479041170d402"
             ],
             "version": "==4.4.0"
+        },
+        "nose": {
+            "hashes": [
+                "sha256:9ff7c6cc443f8c51994b34a667bbcf45afd6d945be7477b52e97516fd17c53ac",
+                "sha256:dadcddc0aefbf99eea214e0f1232b94f2fa9bd98fa8353711dacb112bfcbbb2a",
+                "sha256:f1bffef9cbc82628f6e7d7b40d7e255aefaa1adb6a1b1d26c69a8b79e6208a98"
+            ],
+            "version": "==1.3.7"
         },
         "notebook": {
             "hashes": [
